@@ -108,7 +108,7 @@ a:hover {
 
 
 .split-right {
-    background-color: var(--light-grey);
+    background-color: #d0d0d0;
     padding: 30px;
     text-align: left;
     flex: 1;
