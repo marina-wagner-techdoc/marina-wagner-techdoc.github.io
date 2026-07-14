@@ -14,12 +14,15 @@ body {
     background-color: white;
 }
 
+
 h1 {
     color: var(--accent);
-    font-size: 4rem;
-    margin-top: 80px;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 0;
     margin-bottom: 20px;
 }
+
 
 h2 {
     color: var(--accent);
@@ -41,10 +44,10 @@ p {
 
 hr {
     border: none;
-    height: 2px;
+    height: 3px;
     background-color: var(--accent);
     width: 80%;
-    margin: 50px auto;
+    margin: 0 auto 60px auto;
 }
 
 section {
@@ -55,8 +58,9 @@ div {
     background-color: var(--light-grey);
     border-left: 4px solid var(--accent);
     padding: 25px;
-    margin: 25px auto;
-    width: 700px;
+    margin: 25px auto;    
+    max-width: 700px;
+    width: 80%;
     text-align: left;
 }
 
@@ -71,6 +75,7 @@ a:hover {
 }
 
 header {
-    background-color: #f3f3f3;
-    padding: 60px 20px;
+    background-color: var(--light-grey);
+    padding: 80px 20px;
 }
+
