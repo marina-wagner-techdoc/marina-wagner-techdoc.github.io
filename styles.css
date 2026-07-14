@@ -14,17 +14,32 @@ body {
     background-color: white;
 }
 
+header {
+    background-color: white;
+    padding: 50px 20px 30px 20px;
+}
 
 header p {
     max-width: 650px;
 }
 
-h1 {
+
+.tagline {
     color: var(--accent);
-    font-size: 4rem;
-    margin: 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 15px;
 }
 
+
+h1 {
+    color: var(--accent);
+    font-size: 3.5rem;
+    margin: 0;
+    font-weight: 700;
+}
 
 h2 {
     color: var(--accent);
@@ -53,10 +68,10 @@ hr {
     margin: 0;
 }
 
-section {
-    margin-top: 60px;
-}
 
+section {
+    margin-top: 40px;
+}
 
 a {
     display: inline-block;
@@ -71,12 +86,6 @@ a {
 
 a:hover {
     opacity: 0.9;
-}
-
-
-header {
-    background-color: #f3f3f3;
-    padding: 100px 20px;
 }
 
 .split-card {
