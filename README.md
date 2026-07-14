@@ -1,13 +1,17 @@
-# Machine Landing Page
+# Documentation Experience Portfolio
 
-My first frontend and UX engineering portfolio project.
+A portfolio project exploring the intersection of technical communication, UX writing, information architecture and frontend development.
 
-## Goals
+## Purpose
 
-- Learn HTML
-- Learn CSS
-- Learn responsive design
-- Build a portfolio project
+This project demonstrates:
+
+- HTML and CSS fundamentals
+- Information architecture
+- Content design
+- UX writing principles
+- Portfolio presentation
+- GitHub Pages deployment
 
 ## Status
 
