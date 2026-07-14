@@ -1,6 +1,6 @@
 :root {
-    --accent: #33B8BC;
-    --light-grey: #ECECEC;
+    --accent: #3BB4B8;
+    --light-grey: #F3F3F3;
     --text: #333333;
 }
 
@@ -89,15 +89,14 @@ a:hover {
 .split-card {
     display: flex;
     max-width: 900px;
-    margin: 20px auto;
+    margin: 0 auto 12px auto;
 }
-
 
 .split-left {
     background-color: var(--accent);
     color: white;
-    width: 250px;
-    padding: 25px;
+    width: 220px;
+    padding: 30px;
     font-weight: bold;
 
     display: flex;
@@ -107,19 +106,12 @@ a:hover {
 }
 
 .split-right {
-    background-color: #ECECEC;
+    background-color: var(--light-grey);
     padding: 30px;
     text-align: left;
     flex: 1;
     box-sizing: border-box;
 }
-
-.split-right a {
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
 
 @media (max-width: 768px) {
 
