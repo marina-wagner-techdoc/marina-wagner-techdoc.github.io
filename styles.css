@@ -24,7 +24,7 @@ header p {
 
 .tagline {
     color: var(--accent);
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -95,7 +95,7 @@ a:hover {
 .split-left {
     background-color: var(--accent);
     color: white;
-    width: 220px;
+    width: 200px;
     padding: 30px;
     font-weight: bold;
 
