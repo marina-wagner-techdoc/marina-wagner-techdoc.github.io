@@ -98,3 +98,25 @@ header {
     padding: 100px 20px;
 }
 
+.split-card {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.split-left {
+    background-color: var(--accent);
+    color: white;
+    width: 250px;
+    padding: 25px;
+    font-weight: bold;
+}
+
+.split-right {
+    background-color: white;
+    padding: 25px;
+    text-align: left;
+    flex: 1;
+    border: 1px solid #e5e5e5;
+}
+
