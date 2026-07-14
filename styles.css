@@ -1,49 +1,62 @@
+
+:root {
+    --accent: #33B8BC;
+    --light-grey: #F3F3F3;
+    --text: #333333;
+}
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
-    color: #333333;
+    padding-bottom: 80px;
+    color: var(--text);
     background-color: white;
-}
-
-hr {
-    border: none;
-    height: 2px;
-    background: var(--accent);
-    width: 80%;
-    margin: 40px auto;
 }
 
 h1 {
     color: var(--accent);
-    font-size: 3rem;
+    font-size: 4rem;
     margin-top: 80px;
-}
-
-button {
-    background-color: #0078d4;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 6px;
-}
-
-section {
-    margin-top: 80px;
+    margin-bottom: 20px;
 }
 
 h2 {
     color: var(--accent);
     margin-top: 70px;
     margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: var(--accent);
+    margin-top: 0;
+}
+
+p {
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: var(--accent);
+    width: 80%;
+    margin: 50px auto;
+}
+
+section {
+    margin-top: 60px;
 }
 
 div {
     background-color: var(--light-grey);
-    border-left: 6px solid var(--accent);
-    padding: 20px;
-    margin: 20px auto;
-    width: 650px;
+    border-left: 4px solid var(--accent);
+    padding: 25px;
+    margin: 25px auto;
+    width: 700px;
     text-align: left;
 }
 
@@ -55,11 +68,4 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-:root {
-    --accent: #33B8BC;
-    --light-grey: #f3f3f3;
-    --mid-grey: #d9d9d9;
-    --text: #333333;
 }
