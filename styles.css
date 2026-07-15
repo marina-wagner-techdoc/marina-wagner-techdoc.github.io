@@ -6,20 +6,20 @@
 
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
     margin: 0;
-    padding-bottom: 80px;
+    text-align: center;
     color: var(--text);
     background-color: white;
 }
 
 header {
-    background-color: white;
-    padding: 50px 20px 30px 20px;
+    padding: 50px 20px 30px;
 }
 
-header p {
-    max-width: 650px;
+h1 {
+    color: var(--accent);
+    font-size: 3rem;
+    margin: 0;
 }
 
 .tagline {
@@ -31,12 +31,12 @@ header p {
     margin-top: 15px;
 }
 
-
-h1 {
-    color: var(--accent);
-    font-size: 3rem;
+hr {
+    border: none;
+    height: 4px;
+    background-color: var(--accent);
+    width: 100%;
     margin: 0;
-    font-weight: 700;
 }
 
 
