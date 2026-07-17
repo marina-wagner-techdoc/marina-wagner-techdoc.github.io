@@ -25,8 +25,14 @@ h1 {
 
 h2 {
     color: var(--accent);
+    margin-top: 40px;
+    margin-bottom: 20px;
     text-transform: uppercase;
-    margin: 50px 0 20px;
+}
+
+h3 {
+    color: var(--accent);
+    margin-top: 0;
 }
 
 .tagline {
